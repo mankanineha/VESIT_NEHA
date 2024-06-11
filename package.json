@@ -1,0 +1,15 @@
+{
+  "name": "nehamern",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start": "node index.js",
+"client": "npm run start --prefix client",
+"server": "nodemon index.js",
+"dev": "concurrently \"npm run client\" \"npm run server\""
+},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
